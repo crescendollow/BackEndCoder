@@ -86,6 +86,6 @@ app.put('/producto/:id', (req, res) => {
   res.json({ message: 'usuario actualizado' })
 })
 
-app.listen(8080, () => {
-  console.log('server running at port 8080')
+app.listen(3000, () => {
+  console.log('server running at port 3000')
 })
