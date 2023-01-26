@@ -22,3 +22,7 @@ socket.on('add-product', (newProduct) => {
 		  <p>${newProduct.description}</p>
 	</div>`
 })
+
+socket.on('delete-product', (toDeleteProduct) => {
+	document.getElementById(toDeleteProduct.id).innerHTML="";
+})
